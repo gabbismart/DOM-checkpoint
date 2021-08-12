@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>ShoppingKart</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="site.css">
+
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-responsive">
+            <img src="image/bag.jpg" alt="img" class="logo" id="logo">
+            <div class="nav-search">
+                <a href="#"><i class="fa fa-search" id="find"></i></a>
+                <input type="text" id="search" placeholder="search your items, brands">
+            </div>
+            <div class="access">
+                <a href="#" 
+                id="notification"><i class="fa 
+                fa-bell"></i></a>
+                <a href="#" 
+                id="shopping-cart"><i class="fa 
+                fa-shopping-cart "></i></a>
+                <a href="#" 
+                id="bars"><i class="fa 
+                fa-bars"></i></a>
+                <a href="#" id="account"><i class="fa fa-user-circle-o"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- main section -->
+    <div id="main">
+
+        <!-- categories section -->
+        <div id="categories">
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/bag.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Latest Stocks</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/desktop.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">New Stocks</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/laptop.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Latest Stocks</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/shoping image 2.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Safety Kits Stocks</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/umbrella 2.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Fashion Design Stocks</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/unbrellla.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Styled umbrella</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="image/phone 2.jpg" alt="img" class="brand-img">
+                </div>
+                <h4 id="brand-name">Mobile Phone</h4>
+            </div>
+        </div>
+        <!-- end of categories section -->
+
+        <!-- latest categories section -->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">
+                    Latest Stocks
+                </h1>
+                <button type="button" id="item-btn">View All</button>
+            </div>
+            <div class="card">
+                <div class="item-container" id="0">
+                    <div class="card-item">
+                        <img src="image/bag 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Shopping Bag(School Preparation)</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $190 </h3>
+                </div>
+                <div class="item-container" id="1">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="2">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="3">
+                    <div class="card-item">
+                        <img src="image/laptop (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Laptop (Ultra wide screen</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $300 </h3>
+                </div>
+                <div class="item-container" id="4">
+                    <div class="card-item">
+                        <img src="image/phone 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Android Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $180 </h3>
+                </div>
+                <div class="item-container" id="5">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="6">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="7">
+                    <div class="card-item">
+                        <img src="image/shoping image (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Best of It all</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $145 </h3>
+                </div>
+                <div class="item-container" id="8">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="9">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+            </div>
+        </section>
+        <!-- end of latest categories section -->
+
+        <!-- new stocks categories section-->
+
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">
+                    New Stocks
+                </h1>
+                <button type="button" id="item-btn">View All</button>
+            </div>
+            <div class="card">
+                <div class="item-container" id="10">
+                    <div class="card-item">
+                        <img src="image/bag 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Shopping Bag(School Preparation)</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $190 </h3>
+                </div>
+                <div class="item-container" id="11">
+                    <div class="card-item">
+                        <img src="image/laptop (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Laptop (Ultra wide screen</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $300 </h3>
+                </div>
+                <div class="item-container" id="12">
+                    <div class="card-item">
+                        <img src="image/phone 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Android Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $180 </h3>
+                </div>
+                <div class="item-container" id="13">
+                    <div class="card-item">
+                        <img src="image/shoping image (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Best of It all</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $145 </h3>
+                </div>
+                <div class="item-container" id="14">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="15">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="16">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="17">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of new stocks categories section -->
+
+        <!-- Latest stocks section -->
+
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">
+                    Latest Stocks
+                </h1>
+                <button type="button" id="item-btn">View All</button>
+            </div>
+            <div class="card">
+                <div class="item-container" id="18">
+                    <div class="card-item">
+                        <img src="image/bag 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Shopping Bag(School Preparation)</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $190 </h3>
+                </div>
+                <div class="item-container" id="19">
+                    <div class="card-item">
+                        <img src="image/laptop (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Laptop (Ultra wide screen</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $300 </h3>
+                </div>
+                <div class="item-container" id="20">
+                    <div class="card-item">
+                        <img src="image/phone 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Android Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $180 </h3>
+                </div>
+                <div class="item-container" id="21">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="22">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="23">
+                    <div class="card-item">
+                        <img src="image/shoping image (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Best of It all</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $145 </h3>
+                </div>
+                <div class="item-container" id="24">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="25">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of latest section-->
+
+        <!-- safty kits stocks -->
+
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">
+                    Safety Kits Stocks
+                </h1>
+                <button type="button" id="item-btn">View All</button>
+            </div>
+            <div class="card">
+                <div class="item-container" id="26">
+                    <div class="card-item">
+                        <img src="image/bag 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Shopping Bag(School Preparation)</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $190 </h3>
+                </div>
+                <div class="item-container" id="27">
+                    <div class="card-item">
+                        <img src="image/laptop (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Laptop (Ultra wide screen</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $300 </h3>
+                </div>
+                <div class="item-container" id="28">
+                    <div class="card-item">
+                        <img src="image/phone 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Android Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $180 </h3>
+                </div>
+                <div class="item-container" id="29">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="30">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="31">
+                    <div class="card-item">
+                        <img src="image/shoping image (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Best of It all</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $145 </h3>
+                </div>
+                <div class="item-container" id="32">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="33">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of safty kits stocks -->
+
+        <!-- fashion design stocks -->
+
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">
+                    Fashion Design Stocks
+                </h1>
+                <button type="button" id="item-btn">View All</button>
+            </div>
+            <div class="card">
+                <div class="item-container" id="34">
+                    <div class="card-item">
+                        <img src="image/bag 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Shopping Bag(School Preparation)</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $190 </h3>
+                </div>
+                <div class="item-container" id="35">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="36">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="37">
+                    <div class="card-item">
+                        <img src="image/laptop (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Laptop (Ultra wide screen</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $300 </h3>
+                </div>
+                <div class="item-container" id="38">
+                    <div class="card-item">
+                        <img src="image/phone 1 (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Android Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $180 </h3>
+                </div>
+                <div class="item-container" id="39">
+                    <div class="card-item">
+                        <img src="image/shoping image (2).jpg" alt="img" id="card-img">
+                        <p id="item-name">Best of It all</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $145 </h3>
+                </div>
+                <div class="item-container" id="40">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="41">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+                <div class="item-container" id="42">
+                    <div class="card-item">
+                        <img src="image/phone 2.jpg" alt="img" id="card-img">
+                        <p id="item-name">Apple Phone</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $169 </h3>
+                </div>
+                <div class="item-container" id="43">
+                    <div class="card-item">
+                        <img src="image/unbrellla.jpg" alt="img" id="card-img">
+                        <p id="item-name">Umbrella Shielding</p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">Price : $125 </h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of fashion design stocks-->
+
+        <!-- footer section -->
+        <footer>
+            <p id="footer-title">Our Support Team</p>
+            <div class="footer">
+                <div class="support">
+                    <ul>
+                        <h3>Know About Us</h3>
+                        <li><a href="#" id="about">Know Us</a></li>
+                        <li><a href="#" id="refund-policy">Refund Policy</a></li>
+                        <li><a href="#" id="policy">Our Policy</a></li>
+                        <li><a href="#" id="return-product">How to Return ?</a></li>
+                        <li><a href="#" id="about">Know Us</a></li>
+                        <li><a href="#" id="terms">Terms & Conditions</a></li>
+                        <li><a href="#" id="privacy">Privacy Policy</a></li>
+
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <h3>Contact Us</h3>
+                        <li><i class="fa fa-facebook"></i><a href="" id="facebook">Facebook</a></li>
+                        <li><i class="fa fa-twitter"></i><a href="" id="twitter">Twitter</a></li>
+                        <li><i class="fa fa-instagram"></i><a href="" id="instagram">Instagram</a></li>
+                        <li><i class="fa fa-telegram"></i><a href="" id="telegram">Telegram</a></li> 
+                    </ul>
+                </div>
+                <div class="address">
+                    <h3>Office Address</h3>
+                    <p>Building Ashiana, Cubbon Park,</p>
+                    <p>Bengaluru, 569029</p>
+                    <p>Karnatka, Nigeria</p>
+                    <p>Phone NO: 08038505682</p>
+                    <p>E-mail: brightgabi@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&#169 : 2021 shoppingkart.com. All Rights Reserved</p>
+            </div>
+        </footer>
+        <!-- end of footer section -->
+    </div>
+
+<!-- end of main page -->
+
+    <!-- details page -->
+    <div id="details-page">
+        <div class="details">
+            <div class="items-details">
+                <div class="image-container">
+                    <img src="image/laptop.jpg" alt="img" id="detail-img">
+                </div>
+                <div class="details-card">
+                    <h2 id="details-title">Laptop</h2>
+                    <h4 id="detail-price">Price : $ 300</h4>
+                    <p id="you-save">You save : $ 20</p>
+                    <p id="delivery"><strong>Delivery : In 3 - 4 days</strong></p>
+                    <p id="spec"><strong>Specification : In 3 - 4 days</strong></p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius recusandae, 
+                            vel tempore enim pariatur rerum rem molestiae exercitationem similique blanditiis 
+                            nisi quidem totam voluptates autem ut quos nihil tenetur architecto?
+                        </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, 
+                            repellendus expedita, enim voluptas sequi illo nesciunt voluptate minima 
+                            placeat animi et reprehenderit qui quibusdam vel iure? Iusto dolores quis in!
+                        </li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iste 
+                            dolores officia, dolorum odio sunt. Nemo optio ab amet suscipit commodi ea saepe? 
+                            Eius cum rem maxime magnam quis similique!
+                        </li>
+                    </ul>
+                    <button id="carts">Add to Cart</button>
+                    <button id="back">back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of details page-->
+
+    <!-- cart list section-->
+    <div class="cart-container">
+        <p id="cart-title">Your <strong>Cart</strong></p>
+        <div id="empty-cart">
+            <h1>Your Cart is Empty...</h1>
+        </div>
+        <div id="cart-with-items">
+            <div class="cart-column">
+                <h3>Products</h3>
+                <h3>Products Name</h3>
+                <h3>Total</h3>
+                <h3>Quantity</h3>
+                <h3>Remove</h3>
+            </div>
+            <div id="item-body">
+
+            </div>
+            <div id="total">
+                <h3 id="total-items">Quantity</h3>
+                <h2 id="total-amount">Amount</h2>
+                <h3 id="you-saved">You saved</h3>
+            </div>
+        </div>
+    </div>
+    <!-- end of cart list section -->
+
+    <script src="site.js"></script>
+
+</body>
+</html>
